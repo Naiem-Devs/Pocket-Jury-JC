@@ -1,0 +1,474 @@
+/* xxl Device */
+@media (max-width: 1400px){
+    .hero__area {
+        background: url(../img/hero_bg.png) no-repeat;
+        background-size: cover;
+        padding: 140px 0;
+    }
+    .role_content p {
+        font-size: 22px;
+    }
+    .info__card p {
+        font-size: 24px;
+    }
+    .card__number {
+        font-size: 70px;
+        width: 100px;
+        height: 100px;
+    }
+    .title__card h4 {
+        font-size: 44px;
+    }
+    .list-group-item p {
+        font-size: 28px;
+    }
+    .pricing_heading h2 {
+        font-size: 90px;
+    }
+    .pricing_heading h4 {
+        font-size: 48px;
+    }
+}
+/* xl Device */
+@media (max-width: 1200px){
+    .hero__area {
+        padding: 120px 0;
+    }
+    .hero_content {
+        max-width: 480px;
+    }
+    .hero_content p {
+        font-size: 24px;
+        padding-right: 20px;
+    }
+    .hero_content h1 {
+        font-size: 48px;
+    }
+    .role_content h4 {
+        font-size: 28px;
+    }
+    .role_content p {
+        font-size: 18px;
+    }
+    .role_content .role_img {
+        width: 90px;
+        height: 90px;
+    }
+    .role_content .role_img > img {
+        width: 60px;
+        height: 60px;
+    }
+    .info__card i {
+        width: 85px;
+        height: 85px;
+    }
+    .info__card i img {
+        width: 60px;
+    }
+    .info__card h5 {
+        font-size: 24px;
+        margin: 16px 0;
+    }
+    .info__card p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .title__card h4 {
+        font-size: 36px;
+    }
+    .card__number {
+        font-size: 55px;
+        width: 85px;
+        height: 85px;
+        border-width: 6px;
+    }
+    .list-group-item p {
+        font-size: 22px;
+    }
+    .pricing_heading h2 {
+        font-size: 70px;
+    }
+    .pricing_heading h4 {
+        font-size: 40px;
+    }
+    .work__section .section__title h3 {
+        font-size: 48px;
+    }
+    .work__section .section__title p {
+        font-size: 24px;
+    }
+    .testimonial_title {
+        max-width: 690px;
+    }
+    .testimonial_title h3 {
+        font-size: 48px;
+    }
+    .testimonial_title p {
+        font-size: 24px;
+    }
+    .testimonail__slider__active {
+        max-width: 680px;
+    }
+    #testimonial .card-body .text p {
+        font-size: 18px;
+    }
+    #testimonial .card-body .user .user_photo img {
+        width: 55px;
+    }
+    #testimonial .card-body .user_role h5 {
+        font-size: 18px;
+    }
+    #testimonial .card-body .user_role p {
+        font-size: 15px;
+    }
+    .contact-title h2 {
+        font-size: 48px;
+    }
+    #contact form input, #contact form textarea {
+        font-size: 20px;
+        padding: 16px 0 16px 20px !important;
+    }
+    #contact form label {
+        font-size: 24px;
+    }
+    .contact__form {
+        max-width: 770px;
+    }
+    .footer__section .footer__title h3 {
+        font-size: 48px;
+    }
+    .footer__title a img {
+        width: 180px;
+    }
+    .copyright__section .faq__links ul li a, .copyright__section .copyright__text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .Privacy__content h1,.titleH1 {
+        font-size: 46px;
+    }
+    
+    .Policy__text h2 {
+        font-size: 30px;
+    }
+    
+    .Policy__text p {
+        font-size: 18px;
+    }
+    
+    .Policy__text {
+        margin-bottom: 35px;
+    }
+
+    .accordion-button{
+    font-size: 22px;
+}
+.accordion-body p {
+    font-size: 18px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+/* Lg Device */
+@media (max-width: 991px){
+    section {
+        padding: 40px 0;
+    }
+    .hero__area {
+        padding: 100px 0;
+    }
+    .hero_content {
+        max-width: 400px;
+    }
+    .navbar-nav .nav-item {
+        padding-right: 30px;
+    }
+    .hero_content h1 {
+        font-size: 40px;
+    }
+    .hero_content p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .app_links a {
+        width: 50px;
+        height: 50px;
+    }
+    .role_content p {
+        font-size: 20px;
+    }
+    .title__card h4 {
+        font-size: 28px;
+    }
+    .info__card p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .card__number {
+        width: 75px;
+        border: 5px solid #fff;
+        height: 75px;
+        font-size: 50px;
+    }
+    .info__card i {
+        width: 75px;
+        height: 75px;
+    }
+    .info__card i img {
+        width: 55px;
+    }
+    .info__card h5 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .list-group-item p {
+        font-size: 16px;
+    }
+    .pricing_heading h2 {
+        font-size: 60px;
+    }
+    .pricing_heading h4 {
+        font-size: 34px;
+    }
+    #pricing {
+        padding: 36px 0;
+    }
+    .footer__section .footer__title h3 {
+        font-size: 42px;
+    }
+    .contact-title h2 {
+        font-size: 40px;
+        color: var(--shoe-wax);
+    }
+    .testimonial_title h3 {
+        font-size: 40px;
+    }
+    .testimonial_title p {
+        font-size: 24px;
+    }
+    .work__section .section__title h3 {
+        font-size: 40px;
+    }
+    .work__section .section__title p {
+        font-size: 22px;
+    }
+    .work__section .section__title {
+        margin-bottom: 50px;
+    }
+    .main_btn {
+        padding: 12px 24px;
+    }
+    .footer__section a:nth-last-child(1) {
+        margin-left: 20px;
+    }
+    .footer__title a img {
+        width: 160px;
+    }
+    .copyright__section .faq__links ul li a, .copyright__section .copyright__text {
+        font-size: 15px;
+    }
+    .Privacy__content h1,.titleH1 {
+        font-size: 42px;
+    }
+    
+    .Policy__text h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .Policy__text p {
+        font-size: 16px;
+    }
+    
+    .Policy__text {
+        margin-bottom: 35px;
+    }
+    .accordion-button{
+        font-size: 16px;
+    }
+    .accordion-body p {
+        font-size: 16px;
+    }
+    .f-hight {
+        min-height: calc(100vh - 104px);
+    }
+
+}
+/* Md Device */
+@media (max-width: 767px){
+    .menu__btn {
+        font-size: 24px;
+    }
+    .hero_content {
+        max-width: 100%;
+    }
+    .navbar-brand img {
+        max-width: 60px;
+    }
+    .hero__area {
+        padding: 60px 0;
+    }
+.role_content p {
+  font-size: 24px;
+}
+.card__number {
+	top: 0%;
+}
+.work__section .section__title h3 {
+	font-size: 40px;
+}
+.work__section .section__title p {
+  font-size: 24px;
+}
+.info__card p {
+	font-size: 16px;
+	padding-bottom: 36px;
+}
+.pricing_heading h2 {
+	font-size: 55px;
+}
+.pricing_heading h4 {
+	font-size: 30px;
+}
+.list-group-item p {
+	font-size: 16px;
+}
+.list-group-item i {
+	font-size: 18px;
+}
+.pricing_heading {
+	text-align: center;
+	margin: auto;
+	padding-bottom: 20px;
+}
+.testimonial_title h3 {
+  font-size: 46px;
+}
+.testimonial_title p {
+  font-size: 22px;
+}
+#testimonial .card-body .text p {
+  font-size: 18.67px;
+}
+.contact-title h2 {
+  font-size: 46px;
+}
+.testimonial_title h3 {
+	font-size: 32px;
+}
+.testimonial_title p {
+	font-size: 18px;
+	line-height: normal;
+	margin-top: 20px;
+}
+#testimonial .card-body {
+	padding: 20px;
+}
+#testimonial .card-body .text p {
+	font-size: 16px;
+	padding: 20px 0px;
+}
+.testimonail__slider__active .swiper-pagination {
+	padding-top: 30px;
+}
+.contact-title h2 {
+	font-size: 32px;
+}
+#contact form label {
+	font-size: 18px;
+}
+#contact form input, #contact form textarea {
+	font-size: 16px;
+	padding: 12px 0 12px 16px !important;
+}
+.message__box {
+	height: 140px;
+}
+.footer__section {
+	padding: 36px 0;
+}
+.footer__section .footer__title h3 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+.footer__title a img {
+	width: 140px;
+}
+.copyright__section {
+	padding: 20px 0px;
+}
+.copyright__text {
+	padding-top: 10px;
+}
+
+.role_content .role_img {
+	width: 75px;
+	height: 75px;
+}
+.role_content .role_img > img {
+	width: 56px;
+	height: 56px;
+}
+.role_content h4 {
+	font-size: 24px;
+}
+.role_content p {
+	font-size: 18px;
+}
+.title__card h4 {
+	font-size: 24px;
+	padding-top: 55px;
+	padding-bottom: 20px;
+}
+.info__card {
+	padding: 24px 30px;
+}
+.Privacy__content h1,.titleH1 {
+    font-size: 32px;
+}
+
+.logo-area a {
+    margin-bottom: 40px;
+    max-width: 120px;
+}
+
+.Policy__text h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.Policy__text p {
+    font-size: 15px;
+}
+
+.Policy__text {
+    margin-bottom: 28px;
+}
+.f-hight {
+    min-height: calc(100vh - 98px);
+}
+
+}
+/* Sm Device */
+@media (max-width: 576px){
+    .hero_content p {
+        font-size: 18px;
+    }
+.hero_content h1 {
+	font-size: 32px;
+}
+.role_content p {
+  font-size: 22px;
+}
+.f-hight {
+    min-height: calc(100vh - 97px);
+}
+}

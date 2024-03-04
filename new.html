@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+h1 {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 40px;
+  width: auto;
+}
+nav {
+ box-sizing: border-box;
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ padding: 20px 60px;
+ text-align: center;
+ background-color: #eee;
+ font-size: 18px;
+ letter-spacing: 1px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222;
+  padding: 1px 0;
+  margin: 0 10px;
+  transition: all 0.15s ease-in-out;
+}
+.hov-color-red.is-current,
+.hov-color-red:hover {
+   color: #ff765a;
+}
+.hov-color-green.is-current,
+.hov-color-green:hover {
+  color: #5aff8c;
+}
+.hov-color-blue.is-current,
+.hov-color-blue:hover {
+  color: #5acbff;
+}
+
+.wide {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 80px 60px 60px 60px;
+  min-height: 100vh;
+}
+#red {
+  background-color: #ff765a;
+}
+#green {
+  background-color: #5aff8c;
+}
+#blue {
+  background-color: #5acbff;
+}
+
+    </style>
+
+
+    <nav id="navigation">
+        <a data-scroll class="hov-color-red" href="#red" >red</a>
+        <a data-scroll class="hov-color-green" href="#green">green</a>
+        <a data-scroll class="hov-color-blue" href="#blue">blue</a>
+      </nav>
+      
+      <section id="red" class="wide js-section">
+        <h1>Red</h1>
+      </section>
+      
+      <section id="green" class="wide js-section">
+        <h1>Green</h1>
+      </section>
+      
+      <section id="blue" class="wide js-section">
+        <h1>Blue</h1>
+      </section>
+
+
+      <script src="js/jquery.min.js"></script>
+
+      <script>
+        // Scroll to the desired section on click
+function scrollToSection(event) {
+  event.preventDefault();
+  var $section = $($(this).attr('href')); 
+  $('html, body').animate({
+    scrollTop: $section.offset().top
+  }, 500);
+}
+$('[data-scroll]').on('click', scrollToSection);
+      </script>
+</body>
+</html>
